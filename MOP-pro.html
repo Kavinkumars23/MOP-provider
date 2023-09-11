@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="provider.css">
+</head>
+
+<body>
+    <div class="container-fluid top">.</div>
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <!-- header xl and lg -->
+            <div class="row header">
+                <div class="col-3">
+                    <img src="/assert/header-logo.png" class="header-logo">
+                </div>
+                <div class="col-9">
+                    <nav class="navbar navbar-expand-lg navbar-light p-xl-5 py-xl-5 py-4 mt-xl-0 mt-2 ms-xl-0 ms-2">
+                        <div class="collapse navbar-collapse" id="navbarText">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link home" href="#">Home</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle home ms-xl-2" href="#"
+                                        id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        About
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link home ms-xl-2" href="#">Evaluation</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link home ms-xl-2" href="#">Education</a>
+                                </li>
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle home ms-xl-2" href="#"
+                                        id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        Providers
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link home ms-xl-2" href="#">Exercises</a>
+                                </li>
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle home ms-xl-2" href="#"
+                                        id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        More
+                                    </a>
+                                </li>
+                                <li class="nav-item ms-xl-5 ms-3">
+                                    <img src="/assert/profile-photo.jpg" class="rounded-circle profile-photo">
+                                </li>
+                                <li class="nav-item dropdown d-xl-none d-lg-block">
+                                    <a class="nav-link dropdown-toggle home" href="#" id="navbarDropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown ms-xl-2 d-xl-block d-none">
+                                    <a class="nav-link dropdown-toggle doctor-name" href="#" id="navbarDropdownMenuLink"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Wiley Waites
+                                    </a>
+                                </li>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- header sm and md -->
+            <div class="row d-xl-none d-lg-none">
+                <div class="col-6">
+                    <img src="/assert/header-logo.png" class="header-logo">
+                </div>
+                <div class="col-6 text-end">
+                    <a class="btn btn-primary bg-light border-0 px-3 py-4 mt-md-3" data-bs-toggle="offcanvas"
+                        href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
+                            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><iconify-icon icon="ri:menu-fill" style="color: black;"
+                                    width="50" height="30"></iconify-icon></span>
+                        </button>
+                    </a>
+                    <div class="offcanvas offcanvas-start bg-light" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <img src="/assert/header-logo.png" class="mt-2 mb-3 header-logo">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body text-center">
+                            <div class="row">
+                                <ul class="nav  nav-pills flex-column p-0 sidebar">
+                                    <li class="nav-item  ms-3">
+                                        <div class="d-flex justify-content-center">
+                                            <img src="/assert/profile-photo.jpg" class="rounded-circle profile-photo">
+                                            <a class="nav-link dropdown-toggle doctor-name" href="#"
+                                                id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                Wiley Waites
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item align-items-center">
+                                        <a class="nav-link home" href="#">Home</span></a>
+                                    </li>
+                                    <li class="nav-item align-items-center">
+                                        <a class="nav-link dropdown-toggle home" href="#" id="navbarDropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            About
+                                        </a>
+                                    </li>
+                                    <li class="nav-item align-items-center">
+                                        <a class="nav-link home" href="#">Evaluation</a>
+                                    </li>
+                                    <li class="nav-item align-items-center">
+                                        <a class="nav-link home" href="#">Education</a>
+                                    </li>
+                                    <li class="nav-item align-items-center">
+                                        <a class="nav-link dropdown-toggle home" href="#" id="navbarDropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Providers
+                                        </a>
+                                    </li>
+                                    <li class="nav-item align-items-center">
+                                        <a class="nav-link home" href="#">Exercises</a>
+                                    </li>
+                                    <li class="nav-item align-items-center">
+                                        <a class="nav-link dropdown-toggle home" href="#" id="navbarDropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            More
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="m-0 p-0 line">
+            <!-- dashboard row -->
+            <div class="row d-lg-block d-lg-block d-none mt-2">
+                <div class="d-flex flex-row-reverse">
+                    <div class="p-2 dashboard ">Feeds</div>
+                    <div class="p-2 dashboard ms-xl-4">Patient Appointment Requests</div>
+                    <div class="p-2 dashboard ms-xl-4">Exercises</div>
+                    <div class="p-2 dashboard ms-xl-4">Posts</div>
+                    <div class="p-2 dashboard ms-xl-4">Messages</div>
+                    <div class="p-2 dashboard ms-xl-4">chat</div>
+                    <div class="p-2 referral ms-xl-4">Referral</div>
+                    <div class="p-2 dashboard ms-xl-4">Dashboard</div>
+                </div>
+            </div>
+            <!-- Referral -->
+            <div class="row fw-bold fs-4 mt-4">
+                <div class="col-6">
+                    <a class="text-black" href="#">Referral</a>
+                </div>
+                <!-- sidebar for dashboard -->
+                <div class="col-6 text-end d-xl-none d-lg-none">
+                    <a class="btn btn-primary bg-light border-0" data-bs-toggle="offcanvas" href="#offcanvasExamples"
+                        role="button" aria-controls="offcanvasExample">
+                        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse"
+                            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><iconify-icon icon="carbon:previous-filled"
+                                    style="color: black;" width="30" height="30"></iconify-icon></iconify-icon></span>
+                        </button>
+                    </a>
+                    <div class="offcanvas offcanvas-end bg-light" tabindex="-1" id="offcanvasExamples"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-body text-center">
+                            <div class="row">
+                                <ul class="nav  nav-pills flex-column p-0 sidebar">
+                                    <div class="p-2 dashboard ms-xl-4">Dashboard</div>
+                                    <div class="p-2 referral ms-xl-4">Referral</div>
+                                    <div class="p-2 dashboard ms-xl-4">chat</div>
+                                    <div class="p-2 dashboard ms-xl-4">Messages</div>
+                                    <div class="p-2 dashboard ms-xl-4">Posts</div>
+                                    <div class="p-2 dashboard ms-xl-4">Exercises</div>
+                                    <div class="p-2 dashboard ms-xl-4">Patient Appointment Requests</div>
+                                    <div class="p-2 dashboard ">Feeds</div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Create referral -->
+            <div class="row mt-3">
+                <div class="col-12 fs-5 fw-bolder">
+                    Create referral
+                </div>
+            </div>
+            <!-- patient name  -->
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="card p-2">
+                        <div class="row">
+                            <div class="col-xl-3 col-lg-6 col-12">
+                                <div class="row p-3 px-4">
+                                    Patient Name
+                                    <input class="form-control mt-1" type="search" aria-label="Search"
+                                        placeholder="Enter Patient Name*">
+                                </div>
+                                <div class="row px-4">
+                                    Gender*
+                                    <select name="Search4" class="select-male mt-1">
+                                        <option value="">Gender</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12">
+                                <div class="row p-3 px-4">
+                                    Refer to*
+                                    <select name="Search4" class="select-male mt-1">
+                                        <option value="">Enter Provide Name</option>
+                                    </select>
+                                </div>
+                                <div class="row px-4">
+                                    Age*
+                                    <input class="form-control mt-1" type="search" aria-label="Search"
+                                        placeholder="Enter Patient Age">
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12">
+                                <div class="row p-3 px-4">
+                                    Note*
+                                    <textarea class="form-control textbox" aria-label="With textarea"
+                                        placeholder="Add note"></textarea></textarea>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-6 col-12 mt-4 px-4 ms-xl-0 ms-lg-0 ms-1">
+                                <div class="row">
+                                    <p class="text-black">Attachment <span class="file-type">(File upload:PDF, JPEG,
+                                            DOC)</span></p>
+                                </div>
+                                <div class="d-flex">
+                                    <div class="">
+                                        <button type="button"
+                                            class="btn btn-primary attach-file py-xl-2 py-lg-2 py-md-2 py-1  px-4">Attach files</button>
+                                    </div>
+                                    <div class="ms-3">
+                                        <button type="button"
+                                            class="btn btn-primary send py-xl-2 py-lg-2 py-md-2 py-3 px-xl-4 px-lg-4 px-md-4 px-3">&nbsp;&nbsp;&nbsp;&nbsp;Send&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                    </div>
+                                </div>
+                                <div class="form-check spine mt-2">
+                                    <input class="form-check-input rounded-circle spine-radio" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Spine Xray.pdf
+                                    </label>
+                                </div>
+                                <div class="form-check spine">
+                                    <input class="form-check-input rounded-circle spine-radio" type="checkbox" value="" id="flexCheckChecked" checked>
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                        Medication.doc
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Referral details -->
+            <div class="row mt-4">
+                <div class="d-flex flex-row justify-content-between mb-3">
+                    <div class=" fs-5 fw-bolder">Referral deatils </div>
+                    <div class="">
+                        <div class="form-check form-check-inline ">
+                            <input class="form-check-input rounded-circle check-referral" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="inlineRadio1">My Referrals </label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input rounded-circle check-referral" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="inlineRadio2">Referred by others</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- table -->
+            <div class="row m-0 pb-5">
+                <!-- <div class="table-border p-0 m-0"> -->
+                <div class="table-responsive mt-1 table-border p-0">
+                    <table class="table doctor-table text-nowrap m-0">
+                        <thead>
+                            <tr class="table-head ">
+                                <th scope="col" class="px-4 py-3">Ref ID</th>
+                                <th scope="col" class="px-4 py-3">Date</th>
+                                <th scope="col" class="px-4 py-3">Patient Name</th>
+                                <th scope="col" class="px-4 py-3">Refered to</th>
+                                <th scope="col" class="w-50 px-4 py-3">Note</th>
+                                <th scope="col" class="px-4 py-3">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-column">
+                                <td class="px-4">MOP_152</td>
+                                <td class="px-4">22 Mar 2022</td>
+                                <td class="px-4">Gilbert Holmes</td>
+                                <td class="px-4">
+                                    <div class="d-flex">
+                                        <div><img src="/assert/profile-photo.jpg" class="table-img"></div>
+                                        <div class="d-flex flex-column mb-3 ms-2">
+                                            <div class="p-1 py-0 mt-2">Dr Juan Baker</div>
+                                            <div class="p-1 py-0 pain">(Pain Specialist)</div>
+                                          </div>
+                                    </div>
+                                </td>
+                                <td class="text-wrap note px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error a deserunt commodi
+                                    dicta porro. Dolorum error odio nisi, minus harum id, enim, impedit tempora ad
+                                    nostrum eligendi ipsam ex sit.</td>
+                                <td class="px-4"><button type="button" class="btn btn-primary attach-file py-1 px-4">view</button>
+                                </td>
+                            </tr>
+                            <tr class="table-column">
+                                <td class="px-4">MOP_152</td>
+                                <td class="px-4">22 Mar 2022</td>
+                                <td class="px-4">Gilbert Holmes</td>
+                                <td class="px-4">
+                                    <div class="d-flex">
+                                        <div><img src="/assert/profile-photo.jpg" class="table-img"></div>
+                                        <div class="d-flex flex-column mb-3 ms-2">
+                                            <div class="p-1 py-0 mt-2">Dr Juan Baker</div>
+                                            <div class="p-1 py-0 pain">(Pain Specialist)</div>
+                                          </div>
+                                    </div>
+                                </td>
+                                <td class="text-wrap note px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error a deserunt commodi
+                                    dicta porro. Dolorum error odio nisi, minus harum id, enim, impedit tempora ad
+                                    nostrum eligendi ipsam ex sit.</td>
+                                <td class="px-4"><button type="button" class="btn btn-primary attach-file py-1 px-4">view</button>
+                                </td>
+                            </tr>
+                            <tr class="table-column">
+                                <td class="px-4">MOP_152</td>
+                                <td class="px-4">22 Mar 2022</td>
+                                <td class="px-4">Gilbert Holmes</td>
+                                <td class="px-4">
+                                    <div class="d-flex">
+                                        <div><img src="/assert/profile-photo.jpg" class="table-img"></div>
+                                        <div class="d-flex flex-column mb-3 ms-2">
+                                            <div class="p-1 py-0 mt-2">Dr Juan Baker</div>
+                                            <div class="p-1 py-0 pain">(Pain Specialist)</div>
+                                          </div>
+                                    </div>
+                                </td>
+                                <td class="text-wrap note px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error a deserunt commodi
+                                    dicta porro. Dolorum error odio nisi, minus harum id, enim, impedit tempora ad
+                                    nostrum eligendi ipsam ex sit.</td>
+                                <td class="px-4"><button type="button" class="btn btn-primary attach-file py-1 px-4">view</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid footer text-white">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-xl-4 col-lg-4 col-12">
+                    <img src="/assert/footer logo.png" class="footer-logo">
+                    <p class="ms-2">Injuries, joint replacements, and orthoppedic issues are difficult to navigate. We
+                        have designed
+                        this site as a valuable resource for you to get the care you need when you need.</p>
+                    <div class="d-flex align-items-center ms-2 ms-2">
+                        <div class="">
+                            <img src="/assert/clinekt.png">
+                        </div>
+                        <div class=" fs-7 fw-bold px-3">
+                            <a class="text-white" href="#">A Clinekt health Company</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-12 mt-5 px-4 ms-xl-0 ms-lg-0 ms-2">
+                    <div class="row fw-bolder">
+                        Quick Links
+                    </div>
+                    <div class="row mt-2">
+                        Home
+                    </div>
+                    <div class="row mt-2">
+                        Evaluation
+                    </div>
+                    <div class="row mt-2">
+                        Education
+                    </div>
+                    <div class="row mt-2">
+                        Providers
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-12 mt-5 px-4 ms-xl-0 ms-lg-0 ms-2">
+                    <div class="row fw-bolder">
+                        Legal
+                    </div>
+                    <div class="row mt-2">
+                        Terms & Conditions
+                    </div>
+                    <div class="row mt-2">
+                        Cookie Policy
+                    </div>
+                    <div class="row mt-2">
+                        Privacy Policy
+                    </div>
+                    <div class="row mt-2">
+                        Advertising Policy
+                    </div>
+                    <div class="row mt-2">
+                        Review Guidlines
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-12 mt-5 px-4 ">
+                    <div class="row fw-bolder">
+                        Contact Us
+                    </div>
+                    <div class="row">
+                        <div class="d-flex px-0 py-2 "><iconify-icon icon="tabler:mail-filled" class="p-0"
+                                style="color: white;" width="25"
+                                height="25"></iconify-icon>&nbsp;support@myorthopedicproblem.com</div>
+                    </div>
+                    <div class="row fw-bolder mt-4">
+                        Social Media
+                    </div>
+                    <div class="row mt-2">
+                        <div class="d-flex flex-row justify-content-start mb-3 p-0">
+                            <div class="p-1"><iconify-icon icon="skill-icons:twitter" style="color: white;" width="20"
+                                    height="20" class="bg-light rounded-5 p-2"></iconify-icon></div>
+                            <div class="p-1"><iconify-icon icon="devicon:facebook" style="color: white;" width="20"
+                                    height="20" class="bg-light rounded-5 p-2"></iconify-icon></div>
+                            <div class="p-1"><iconify-icon icon="logos:youtube-icon" style="color: white;" width="20"
+                                    height="20" class="bg-light rounded-5 p-2"></iconify-icon></div>
+                            <div class="p-1"><iconify-icon icon="skill-icons:instagram" style="color: white;" width="20"
+                                    height="20" class="bg-light rounded-5    p-2"></iconify-icon></div>
+                            <div class="p-1"><iconify-icon icon="skill-icons:linkedin" style="color: white;" width="20"
+                                    height="20" class="bg-light rounded-5 p-2"></iconify-icon></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="m-0 p-0">
+            <div class="row m-0 text-white p-4 d-flex align-items-center">
+                <p class="text-center">MyOrthopedicProblem.com © Copyrights 2022 | Designed &
+                    All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>

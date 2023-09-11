@@ -1,0 +1,121 @@
+.top{
+    background-color: #105692;
+    font-size: 7px;
+}
+.line{
+    border: 1px solid #105692;
+}
+.home{
+    font-size: large;
+    font-weight: 600;
+    color: black;
+}
+.profile-photo{
+    height: 50px;
+}
+.doctor-name{
+    font-size: large;
+    font-weight: 400;
+    color: black;
+}
+.dashboard{
+    font-size:16px;
+    font-weight: 500;
+}
+.referral{
+    font-size:16px;
+    font-weight: 500;
+    color: #105692;
+}
+.footer{
+    background-color: #302633;
+}
+.file-type{
+    color: #b2b2b2;
+    font-size: small;
+}
+.attach-file{
+    background-color: white;
+    color: #105692;
+    border: 1px solid #105692;
+}
+.send{
+    background-color: #105692;
+    color: white;
+    border: 1px solid #105692;  
+}
+.spine{
+    font-size: smaller;
+    color: #b2b2b2;
+}
+.textbox{
+    height: 125px;
+}
+.select-male{
+    height: 38px;
+    border: 1px solid #cececf;
+    border-radius: 5px;
+    color: #797878;
+}
+.doctor-table{
+    background-color: white;
+}
+.table-column{
+    font-size: smaller;
+    font-weight: 500;
+    vertical-align: middle;    
+}
+.pain{
+    color: #797878;
+    font-weight: 400;
+    font-size: small;
+}
+.table-head{
+    color: #064a85;
+}
+.table-img{
+    height: 60px;
+}
+.check-referral:checked{
+    background-color: #8fc55e !important;
+    border: 1px solid #8fc55e;
+}
+.spine-radio:checked{
+    background-color: #064a85;
+    border: 1px solid #064a85;
+}
+.table-border{
+    border: 1px solid #cececf;
+    border-radius: 5px;
+}
+@media screen and (max-width:320px){
+    .header-logo{
+        width: 200px !important;
+    }
+    .header{
+        display: none;
+    }
+    .offcanvas{
+        width: 260px !important;
+    }
+    .footer-logo{
+        width: 250px;
+    }
+    .note{
+        text-wrap:nowrap !important;
+      
+    }
+}
+@media screen and (max-width:768px) {
+    .header{
+        display: none;
+    }
+    .note{
+        text-wrap:nowrap !important;
+    }
+}
+@media screen and (max-width:1024px) {
+    .header-logo{
+        width:250px;
+    }
+}
